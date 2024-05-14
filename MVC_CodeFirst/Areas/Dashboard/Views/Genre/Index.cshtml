@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Dashboard/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Kategori Silme</h3>
+    </div>
+
+
+    <form>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Silinecek Kategori ID</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Kategori ID">
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <button type="submit" class="btn btn-danger">Sil</button>
+        </div>
+    </form>
+</div>
+
